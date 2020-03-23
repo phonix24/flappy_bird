@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>game 1</title>
+        <style media="screen">
+            canvas {
+                border: 1px black solid;
+            }
+            #id-div-save {
+                /*background: red;*/
+            }
+        </style>
+        <!-- gua game 相关文件 -->
+        <script src='guagame/utils.js'></script>
+        <script src='guagame/mouse.js'></script>
+        <script src="guagame/gua_image.js" charset="utf-8"></script>
+        <script src='guagame/gua_game.js'></script>
+        <script src='guagame/gua_scene.js'></script>
+        <!-- 场景文件 -->
+        <script src='scene/main/player.js'></script>
+        <script src='scene/main/score.js'></script>
+        <script src='scene/main/enemy.js'></script>
+        <script src="scene/main/bullet.js"></script>
+        <script src='scene/main/block.js'></script>
+        <script src="scene/main/Pipe.js" charset="utf-8"></script>
+        <script src="scene/main/partical.js" charset="utf-8"></script>
+        <script src="scene/main/gua_partical_stytem.js" charset="utf-8"></script>
+        <script src="scene/main/gua_animation.js" charset="utf-8"></script>
+        <script src='scene/main/scene.js'></script>
+        <script src="scene/main/main_scene.js"></script>
+        <!-- 结束和标题场景 -->
+        <script src='scene/end/scene_end.js'></script>
+        <script src='scene/title/scene_title.js'></script>
+        <!--  编辑关卡场景 -->
+        <script src="scene/editor/scene_editor.js" charset="utf-8"></script>
+        <!-- 关卡数据 -->
+        <script src='level.js'></script>
+    </head>
+    <body>
+        <canvas id="id-canvas" width="288" height="512"></canvas>
+        <hr>
+        <input id=id-input-speed type="range" value="1">
+        <script src=main.js></script>
+    </body>
+</html>
